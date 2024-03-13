@@ -57,3 +57,11 @@ img {
     background: none;
     color: white;
 }
+
+#footer-sect .col-12{
+    background-color: inherit;
+}
+
+#footer-sect{
+    background-color: #3a546d;
+}
