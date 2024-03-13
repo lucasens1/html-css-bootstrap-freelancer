@@ -15,3 +15,33 @@ img {
 .ms_container img{
     width: 250px;
 }
+/* COLOR FORMATTING */
+.col-12:first-child{
+    background-color: #ba4b63;
+}
+
+.col-12:nth-child(2){
+    background-color: #1ea4b6;
+}
+
+.col-12:nth-child(3){
+    background-color: black;
+}
+
+.col-12:nth-child(4){
+    background-color: #1c83c1;
+}
+
+.col-12:nth-child(5){
+    background-color: #0e38b5;
+}
+
+.col-12:nth-child(6){
+    background-color: #ccb2a3;
+}
+
+[class^="col-"]{
+    img{
+        display: block;
+    }
+}
