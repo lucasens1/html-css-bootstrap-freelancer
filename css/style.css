@@ -40,8 +40,13 @@ img {
     background-color: #ccb2a3;
 }
 
+
 [class^="col-"]{
     img{
         display: block;
     }
+}
+
+#about-sect .col-12{
+    background-color: inherit;
 }
