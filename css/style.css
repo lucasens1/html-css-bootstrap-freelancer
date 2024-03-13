@@ -50,3 +50,10 @@ img {
 #about-sect .col-12{
     background-color: inherit;
 }
+
+.ms_style_button{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
