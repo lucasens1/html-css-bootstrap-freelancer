@@ -21,36 +21,61 @@
     </header>
 
     <main>
+        <!-- Hero -->
         <div class="ms_container text-center p-3">
             <img src="./img/avatar.svg" alt="">
             <h1 class="p-2">START BOOTSTRAP</h1>
             <p class="fs-6">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
         </div>
+        <!--/Hero-->
 
-        <div class="container">
-            <h4 class="text-center">PORTFOLIO</h4>
-            <div class="row p-3 g-4">
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/cabin.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/cake.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/circus.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/game.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/safe.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 rounded-4">
-                    <img src="./img/submarine.png" alt="">
+        <!-- Portfolio -->
+        <div class="ms_portfolio">
+            <div class="container">
+                <h4 class="text-center">PORTFOLIO</h4>
+                <div class="row g-1 p-2">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/cabin.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/cake.png" alt="">
+                        </div>                   
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/circus.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/game.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/safe.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_card">
+                            <img src="./img/submarine.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- /Portfolio-->
 
+        <!-- About -->
         <!-- Uso il mio container per le impo-->
         <section class="ms_container">
             <div class="about text-center">
@@ -77,7 +102,9 @@
                 </div>
             </div>
         </section>
+        <!-- /About-->
 
+        <!-- Form Section -->
         <section>
             <div class="container" style="min-height: 300px; background-color: white;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquid nihil, earum ipsam unde ratione molestiae sunt, beatae saepe delectus atque nemo assumenda! Sequi consectetur repudiandae consequuntur quo, ex minima.
@@ -85,35 +112,39 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consectetur aliquid dignissimos nulla, eos animi totam facilis minus ut perferendis? Fuga debitis ab distinctio, unde dolorum doloremque labore incidunt aspernatur?
             </div>
         </section>
+        <!-- /Form -->
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="ms_container p-3" id="footer-sect">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-4">
+                        <h6>LOCATION</h6>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
+                    </div>
 
-        <footer>
-            <div class="ms_container" id="footer-sect">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-12 col-md-4">
-                            <h6>LOCATION</h6>
-                            <span>2215 John Daniel Drive Clark, MO 54243</span>
-                        </div>
-    
-                        <div class="col-12 col-md-4">                            
-                            <h6>AROUND THE WEB</h6>
-                            <ul class="d-flex justify-content-center">
-                                <li>Ciao</li>
-                                <li>Ciao</li>
-                                <li>Ciao</li>
-                                <li>Ciao</li>
-                            </ul>
-                        </div>
-    
-                        <div class="col-12 col-md-4">
-                            <h6>ABOUT FREELANCER</h6>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>
-                        </div>
+                    <div class="col-12 col-md-4">                            
+                        <h6>AROUND THE WEB</h6>
+                        <ul class="d-flex justify-content-center">
+                            <li>Ciao</li>
+                            <li>Ciao</li>
+                            <li>Ciao</li>
+                            <li>Ciao</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>
                     </div>
                 </div>
             </div>
-        </footer>
-    </main>
-    
+        </div>
+        <div class="ms_container" id="copyright" style="min-height: 100px;">
+            <span>Copyright <span><i class="fa-regular fa-copyright"></i></span> Your website 2023</span>
+        </div>
+    </footer>
+    <!-- /Footer-->
 </body>
 </html>
